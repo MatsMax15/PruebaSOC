@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<script>
+			UploadContent()
+		</script>
+
+		<title>Nuevo Solicitante</title>
+	</head>
+	<body>
+		<div class="content-header">
+			<h1>Nuevo Solicitante</h1>
+		</div>
+
+		<div class="content-body">
+			<div class="container">
+				<form action="">
+					<div class="row">
+						<div class="col-12">
+							<h5>Información General</h5>
+						</div>
+						<!-- Nombre -->
+						<div class="col-md-4 mb-4">
+							<div class="form-group">
+								<label for="">Nombre *</label>
+								<input type="text" class="form-control" id="nombre" placeholder="Nombre" required />
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="form-group">
+								<label for="">Apellido Paterno *</label>
+								<input type="text" class="form-control" id="apellido_paterno" placeholder="Apellido Paterno" required />
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="form-group">
+								<label for="">Apellido Materno *</label>
+								<input type="text" class="form-control" id="apellido_materno" placeholder="Apellido Materno" required />
+							</div>
+						</div>
+
+						<!-- Fecha Nacimiento -->
+						<div class="col-md-6 mb-4">
+							<div class="row">
+								<label for="">Fecha de Nacimiento</label>
+								<div class="col-4">
+									<div class="form-group">
+										<select class="form-control" name="anio" id="anio" onchange="GetDays()" required>
+											<option value="">Año *</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-group">
+										<select class="form-control" name="mes" id="mes" onchange="GetDays()" required>
+											<option value="">Mes *</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-4">
+									<div class="form-group">
+										<select class="form-control" name="dia" id="dia" required>
+											<option value="">Día *</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Edad -->
+						<div class="col-md-3 mb-4">
+							<div class="form-group">
+								<label for="">Edad (años)</label>
+								<input type="text" class="form-control" id="edad" placeholder="Edad" disabled />
+							</div>
+						</div>
+
+						<!-- Genero -->
+						<div class="col-6 col-md-3 mb-4">
+							<div class="form-group">
+								<label for="">Género</label>
+								<select class="form-control" name="genero" id="genero">
+									<option value="">Seleccione</option>
+									<option value="M">Masculino</option>
+									<option value="F">Femenino</option>
+								</select>
+							</div>
+						</div>
+
+						<!-- CURP -->
+						<div class="col-6 col-md-3 mb-4">
+							<div class="form-group">
+								<label for="">CURP *</label>
+								<input type="text" class="form-control" id="curp" placeholder="CURP" maxlength="18" required />
+							</div>
+						</div>
+
+						<!-- Email -->
+						<div class="col-md-6 mb-4">
+							<div class="form-group">
+								<label for="">Email *</label>
+								<input type="email" class="form-control" id="email" placeholder="Email" required />
+							</div>
+						</div>
+
+						<!-- CP -->
+						<div class="col-md-3 mb-4">
+							<div class="form-group">
+								<label for="">Código Postal</label>
+								<input type="number" class="form-control" id="cp" placeholder="Código Postal" max="5" maxlength="5" />
+							</div>
+						</div>
+
+						<!-- Calle -->
+						<div class="col-md-9 mb-4">
+							<div class="form-group">
+								<label for="">Calle</label>
+								<input type="text" class="form-control" id="calle" placeholder="Calle" />
+							</div>
+						</div>
+
+						<!-- No. Exterior -->
+						<div class="col-md-3 mb-4">
+							<div class="form-group">
+								<label for="">No. Exterior</label>
+								<input
+									type="number"
+									class="form-control"
+									id="no_exterior"
+									placeholder="No. Exterior"
+									max="9999"
+									maxlength="4"
+								/>
+							</div>
+						</div>
+
+						<!-- Colonia -->
+						<div class="col-md-4 mb-4">
+							<div class="form-group">
+								<label for="">Colonia</label>
+								<input type="text" class="form-control" id="colonia" placeholder="Colonia" />
+							</div>
+						</div>
+
+						<!-- Municipio -->
+						<div class="col-md-4 mb-4">
+							<div class="form-group">
+								<label for="">Municipio</label>
+								<input type="text" class="form-control" id="municipio" placeholder="Municipio" />
+							</div>
+						</div>
+
+						<!-- Estado -->
+						<div class="col-md-4 mb-4">
+							<div class="form-group">
+								<label for="">Estado</label>
+								<input type="text" class="form-control" id="estado" placeholder="Estado" />
+							</div>
+						</div>
+					</div>
+
+					<hr />
+
+					<div class="row mb-4">
+						<div class="col-12">
+							<h5>Datos de Ingresos</h5>
+						</div>
+
+						<!-- Ingresos -->
+						<div class="col-12" id="content-items">
+							<div class="card item-ingresos mb-2">
+								<div class="card-header">
+									<div class="row">
+										<div class="col-6"><span class="badge bg-warning count">Ingreso #1</span></div>
+										<div class="col-6 d-flex justify-content-end">
+											<button
+												type="button"
+												class="btn btn-sm btn-danger btn-remove-ingreso py-0"
+												onclick="RemoveItem(this)"
+											>
+												<ion-icon name="close-outline"></ion-icon>
+												Eliminar Ingreso
+											</button>
+										</div>
+									</div>
+								</div>
+								<div class="card-body">
+									<div class="row">
+										<div class="col-12 col-sm-12 col-lg-4 mb-4">
+											<div class="form-group">
+												<label for="">Empresa *</label>
+												<input type="text" class="form-control empresa" name="empresa" placeholder="Empresa" required />
+											</div>
+										</div>
+
+										<!-- Comprobante de Ingresos -->
+										<div class="col-12 col-sm-6 col-lg-4 mb-4">
+											<div class="form-group">
+												<label for="tipo_comprobante">Comprobante de Ingresos *</label>
+												<select class="form-control tipo_comprobante" name="tipo_comprobante" required>
+													<option value="">Seleccione una opción</option>
+												</select>
+											</div>
+										</div>
+
+										<!-- Tipo Empleo -->
+										<div class="col-12 col-md-6 col-sm-6 col-lg-4 mb-4">
+											<div class="form-group">
+												<label for="">Tipo de Empleo *</label>
+												<select class="form-control tipo_empleo" name="tipo_empleo" required>
+													<option value="">Selecciona una opción</option>
+												</select>
+											</div>
+										</div>
+
+										<!-- Salario Bruto -->
+										<div class="col-12 col-md-6 col-lg-4 mb-4">
+											<div class="form-group">
+												<label for="">Salario Bruto *</label>
+												<input
+													type="number"
+													class="form-control salario_bruto"
+													name="salario_bruto"
+													placeholder="Salario Bruto"
+													required
+												/>
+											</div>
+										</div>
+
+										<!-- Salario Neto -->
+										<div class="col-12 col-md-6 col-lg-4 mb-4">
+											<div class="form-group">
+												<label for="">Salario Neto *</label>
+												<input
+													type="number"
+													class="form-control salario_neto"
+													name="salario_neto"
+													placeholder="Salario Neto"
+													required
+												/>
+											</div>
+										</div>
+
+										<!-- Fecha de Inicio -->
+										<div class="col-12 col-md-6 col-lg-4 mb-4">
+											<div class="form-group">
+												<label for="">Fecha de Inicio *</label>
+												<input
+													type="date"
+													class="form-control fecha_inicio"
+													name="fecha_inicio"
+													placeholder="Fecha de Inicio"
+													required
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón para agregar Ingresos -->
+						<div class="col-12">
+							<button type="button" class="btn btn-primary btn-add-ingreso" onclick="AddItem()">
+								<ion-icon name="add-outline"></ion-icon>
+								Agregar Ingreso
+							</button>
+						</div>
+					</div>
+
+					<hr />
+
+					<!-- Botones -->
+					<div class="row">
+						<div class="col-6">
+							<button type="submit" class="btn btn-secondary btn-action">
+								<ion-icon name="close-circle-outline"></ion-icon>
+								Cancelar
+							</button>
+						</div>
+						<div class="col-6">
+							<button type="submit" class="btn btn-success btn-action" onclick="NewSolicitante(event)">
+								<ion-icon name="save-outline"></ion-icon>
+								Guardar
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

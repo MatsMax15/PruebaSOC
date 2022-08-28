@@ -1,0 +1,387 @@
+[19-Aug-2022 05:25:14 Europe/Berlin] PHP Warning:  require_once(models/config/config.model.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Client\controllers\config\config.controller.php on line 3
+[19-Aug-2022 05:25:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'models/config/config.model.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Client\controllers\config\config.controller.php:3
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Client\index.php(14): require_once()
+#1 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Client\controllers\config\config.controller.php on line 3
+[19-Aug-2022 05:25:49 Europe/Berlin] PHP Warning:  require_once(models/config/config.model.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Client\controllers\config\config.controller.php on line 3
+[19-Aug-2022 05:25:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'models/config/config.model.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Client\controllers\config\config.controller.php:3
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Client\index.php(12): require_once()
+#1 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Client\controllers\config\config.controller.php on line 3
+[19-Aug-2022 05:26:15 Europe/Berlin] PHP Warning:  require_once(controllers/config/conection.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Client\index.php on line 12
+[19-Aug-2022 05:26:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/config/conection.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Client\index.php:12
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Client\index.php on line 12
+[19-Aug-2022 05:26:27 Europe/Berlin] PHP Warning:  require_once(controllers/config/connection.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Client\index.php on line 12
+[19-Aug-2022 05:26:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/config/connection.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Client\index.php:12
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Client\index.php on line 12
+[19-Aug-2022 05:26:57 Europe/Berlin] PHP Warning:  require_once(controllers/config/connection.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Client\index.php on line 12
+[19-Aug-2022 05:26:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'controllers/config/connection.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Client\index.php:12
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Client\index.php on line 12
+[19-Aug-2022 05:28:11 Europe/Berlin] PHP Warning:  require_once(models/config/config.model.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Client\controllers\config\config.controller.php on line 3
+[19-Aug-2022 05:28:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'models/config/config.model.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Client\controllers\config\config.controller.php:3
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Client\index.php(12): require_once()
+#1 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Client\controllers\config\config.controller.php on line 3
+[19-Aug-2022 05:49:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Get_UsersController" not found in D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\get.php:4
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(6): include()
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\index.php(19): Routes_Controller->index()
+#4 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\get.php on line 4
+[19-Aug-2022 06:01:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Connection" not found in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php:11
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\get.controller.php(8): Get_SolicitantesModel::getSolicitantes(Array)
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\get.php(21): Get_SolicitantesController::getSolicitantes(Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(6): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\index.php(19): Routes_Controller->index()
+#6 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php on line 11
+[19-Aug-2022 06:04:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Connection" not found in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php:11
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\get.controller.php(8): Get_SolicitantesModel::getSolicitantes(Array)
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\get.php(21): Get_SolicitantesController::getSolicitantes(Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(6): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\index.php(19): Routes_Controller->index()
+#6 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php on line 11
+[19-Aug-2022 06:18:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Post_UsersController" not found in D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\post.php:4
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(9): include()
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\index.php(19): Routes_Controller->index()
+#4 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\post.php on line 4
+[19-Aug-2022 06:19:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Post_SolicitantesController" not found in D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\post.php:4
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(9): include()
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\index.php(19): Routes_Controller->index()
+#4 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\post.php on line 4
+[19-Aug-2022 06:20:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Post_SolicitantesModel" not found in D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\post.controller.php:8
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\post.php(18): Post_SolicitantesController::createSolicitante(Array)
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(9): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\index.php(21): Routes_Controller->index()
+#5 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\post.controller.php on line 8
+[19-Aug-2022 06:20:59 Europe/Berlin] PHP Warning:  require_once(models/users/get.model.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\post.model.php on line 4
+[19-Aug-2022 06:20:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'models/users/get.model.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\post.model.php:4
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\index.php(19): require_once()
+#1 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\post.model.php on line 4
+[19-Aug-2022 06:52:15 Europe/Berlin] PHP Warning:  Undefined array key "user" in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\post.model.php on line 92
+[19-Aug-2022 07:08:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Put_SolicitantesController" not found in D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php:4
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(12): include()
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\index.php(22): Routes_Controller->index()
+#4 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php on line 4
+[19-Aug-2022 07:09:16 Europe/Berlin] PHP Warning:  require_once(models/users/get.model.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 4
+[19-Aug-2022 07:09:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'models/users/get.model.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php:4
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\index.php(21): require_once()
+#1 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 4
+[19-Aug-2022 07:11:14 Europe/Berlin] PHP Warning:  Undefined array key "curp" in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 17
+[19-Aug-2022 07:11:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in D:\xampp\htdocs\PruebaSOC\Api\controllers\config\config.controller.php on line 10
+[19-Aug-2022 07:11:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in D:\xampp\htdocs\PruebaSOC\Api\controllers\config\config.controller.php on line 11
+[19-Aug-2022 07:11:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in D:\xampp\htdocs\PruebaSOC\Api\controllers\config\config.controller.php on line 11
+[19-Aug-2022 07:12:04 Europe/Berlin] PHP Warning:  Undefined array key "curp" in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 17
+[19-Aug-2022 07:12:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\PruebaSOC\Api\controllers\config\config.controller.php:10
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\put.controller.php(11): ConfigController->dataResponse(Object(stdClass), 'controller: upd...')
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php(21): Put_SolicitantesController::updateSolicitante(Array, Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(12): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\index.php(24): Routes_Controller->index()
+#6 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\controllers\config\config.controller.php on line 10
+[19-Aug-2022 07:18:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\PruebaSOC\Api\controllers\config\config.controller.php:10
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\put.controller.php(11): ConfigController->dataResponse(Object(stdClass), 'controller: upd...')
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php(21): Put_SolicitantesController::updateSolicitante(Array, Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(12): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\index.php(24): Routes_Controller->index()
+#6 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\controllers\config\config.controller.php on line 10
+[19-Aug-2022 07:19:12 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($var) must be of type Countable|array, stdClass given in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php:21
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\put.controller.php(8): Put_SolicitantesModel::updateSolicitante(Array, Array)
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php(21): Put_SolicitantesController::updateSolicitante(Array, Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(12): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\index.php(24): Routes_Controller->index()
+#6 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 21
+[19-Aug-2022 07:27:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 37
+[19-Aug-2022 07:27:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 38
+[19-Aug-2022 07:27:22 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 50
+[19-Aug-2022 07:28:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 37
+[19-Aug-2022 07:28:28 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 49
+[19-Aug-2022 07:29:14 Europe/Berlin] PHP Warning:  Undefined array key "curp" in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 99
+[19-Aug-2022 08:00:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\post.model.php:38
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\post.controller.php(8): Post_SolicitantesModel::createSolicitante(Array)
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\post.php(18): Post_SolicitantesController::createSolicitante(Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(9): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\index.php(26): Routes_Controller->index()
+#6 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\post.model.php on line 38
+[21-Aug-2022 01:24:11 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:24:11 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:24:11 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:24:11 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:24:56 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:24:56 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:24:56 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:24:56 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:07 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:07 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:07 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:07 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:26 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:26 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:26 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:26 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:55 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:55 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:56 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:25:56 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:05 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:05 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:06 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:06 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:18 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:18 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:18 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:18 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:36 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:36 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:36 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:36 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:56 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:56 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:56 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:26:56 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:27:05 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:27:05 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:27:05 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:27:05 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:28:40 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:28:40 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:29:33 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:29:33 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:29:33 Europe/Berlin] PHP Warning:  include(comprobantes/comprobantes.routes.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 01:29:33 Europe/Berlin] PHP Warning:  include(): Failed opening 'comprobantes/comprobantes.routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 20
+[21-Aug-2022 06:53:51 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$id_solicitante in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\post.model.php on line 120
+[21-Aug-2022 08:58:23 Europe/Berlin] PHP Warning:  Undefined array key "name" in D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php on line 23
+[21-Aug-2022 09:05:01 Europe/Berlin] PHP Warning:  Undefined array key "name" in D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php on line 23
+[21-Aug-2022 09:17:05 Europe/Berlin] PHP Warning:  Undefined array key "email" in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 38
+[21-Aug-2022 09:17:05 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php:46
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php(39): Get_SolicitantesModel::getSolicitante('email', NULL)
+#1 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\put.controller.php(8): Put_SolicitantesModel::updateSolicitante(Array, Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php(24): Put_SolicitantesController::updateSolicitante(Array, Array)
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(12): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\PruebaSOC\Api\index.php(47): Routes_Controller->index()
+#7 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php on line 46
+[21-Aug-2022 09:18:23 Europe/Berlin] PHP Warning:  Undefined array key "status" in D:\xampp\htdocs\PruebaSOC\Api\controllers\config\config.controller.php on line 10
+[21-Aug-2022 09:18:23 Europe/Berlin] PHP Warning:  Undefined array key "message" in D:\xampp\htdocs\PruebaSOC\Api\controllers\config\config.controller.php on line 11
+[21-Aug-2022 09:18:23 Europe/Berlin] PHP Warning:  Undefined array key "status" in D:\xampp\htdocs\PruebaSOC\Api\controllers\config\config.controller.php on line 11
+[21-Aug-2022 09:19:23 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php:46
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php(41): Get_SolicitantesModel::getSolicitante('email', 'correo@mail.com')
+#1 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\put.controller.php(8): Put_SolicitantesModel::updateSolicitante(Array, Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php(24): Put_SolicitantesController::updateSolicitante(Array, Array)
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(12): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\PruebaSOC\Api\index.php(47): Routes_Controller->index()
+#7 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php on line 46
+[21-Aug-2022 09:22:16 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($var) must be of type Countable|array, stdClass given in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php:44
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\put.controller.php(8): Put_SolicitantesModel::updateSolicitante(Array, Array)
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php(24): Put_SolicitantesController::updateSolicitante(Array, Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(12): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\index.php(47): Routes_Controller->index()
+#6 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 44
+[21-Aug-2022 09:22:53 Europe/Berlin] PHP Warning:  Undefined array key "ingresos" in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php on line 127
+[21-Aug-2022 09:22:53 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in D:\xampp\htdocs\PruebaSOC\Api\models\ingresos\post.model.php on line 18
+[21-Aug-2022 09:27:09 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Get_SolicitantesModel::getSolicitante(), 1 passed in D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\get.controller.php on line 18 and exactly 2 expected in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php:42
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\get.controller.php(18): Get_SolicitantesModel::getSolicitante(Array)
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\get.php(23): Get_SolicitantesController::getSolicitante(Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(6): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\index.php(47): Routes_Controller->index()
+#6 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php on line 42
+[21-Aug-2022 09:27:09 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Get_SolicitantesModel::getSolicitante(), 1 passed in D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\get.controller.php on line 18 and exactly 2 expected in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php:42
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\get.controller.php(18): Get_SolicitantesModel::getSolicitante(Array)
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\get.php(23): Get_SolicitantesController::getSolicitante(Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(6): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\index.php(47): Routes_Controller->index()
+#6 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\get.model.php on line 42
+[21-Aug-2022 09:45:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\xampp\htdocs\PruebaSOC\Api\models\ingresos\post.model.php:31
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\put.model.php(127): Post_IngresosModel::createIngresos(Array, '1')
+#1 D:\xampp\htdocs\PruebaSOC\Api\controllers\solicitantes\put.controller.php(8): Put_SolicitantesModel::updateSolicitante(Array, Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\services\put.php(24): Put_SolicitantesController::updateSolicitante(Array, Array)
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\solicitantes\solicitantes.routes.php(12): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(17): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\PruebaSOC\Api\index.php(47): Routes_Controller->index()
+#7 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\ingresos\post.model.php on line 31
+[21-Aug-2022 13:21:34 Europe/Berlin] PHP Warning:  Undefined array key "mes" in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\post.model.php on line 17
+[21-Aug-2022 19:00:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Get_PedidosModel::getPedido() in D:\xampp\htdocs\PruebaSOC\Api\controllers\pedidos\get.controller.php:18
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\get.php(23): Get_PedidosController::getPedido('id', '1')
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\pedidos.routes.php(6): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(29): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\index.php(55): Routes_Controller->index()
+#5 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\controllers\pedidos\get.controller.php on line 18
+[21-Aug-2022 19:00:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Get_PedidosModel::getPedido() in D:\xampp\htdocs\PruebaSOC\Api\controllers\pedidos\get.controller.php:18
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\get.php(23): Get_PedidosController::getPedido('id', '1')
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\pedidos.routes.php(6): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(29): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\index.php(55): Routes_Controller->index()
+#5 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\controllers\pedidos\get.controller.php on line 18
+[21-Aug-2022 19:03:42 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: PDOStatement::fetchObject(): Argument #1 ($class) must be a valid class name, 2 given in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\get.model.php:49
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\get.model.php(49): PDOStatement->fetchObject('2')
+#1 D:\xampp\htdocs\PruebaSOC\Api\controllers\pedidos\get.controller.php(18): Get_PedidosModel::getPedido('id', '1')
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\get.php(23): Get_PedidosController::getPedido('id', '1')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\pedidos.routes.php(6): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(29): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\PruebaSOC\Api\index.php(55): Routes_Controller->index()
+#7 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\get.model.php on line 49
+[21-Aug-2022 19:03:42 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: PDOStatement::fetchObject(): Argument #1 ($class) must be a valid class name, 2 given in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\get.model.php:49
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\get.model.php(49): PDOStatement->fetchObject('2')
+#1 D:\xampp\htdocs\PruebaSOC\Api\controllers\pedidos\get.controller.php(18): Get_PedidosModel::getPedido('id', '1')
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\get.php(23): Get_PedidosController::getPedido('id', '1')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\pedidos.routes.php(6): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(29): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\PruebaSOC\Api\index.php(55): Routes_Controller->index()
+#7 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\get.model.php on line 49
+[21-Aug-2022 20:18:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Put_PedidosController" not found in D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\put.php:4
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\pedidos.routes.php(12): include()
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(29): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\index.php(55): Routes_Controller->index()
+#4 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\put.php on line 4
+[21-Aug-2022 20:19:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Put_PedidosController" not found in D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\put.php:4
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\pedidos.routes.php(12): include()
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(29): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\index.php(55): Routes_Controller->index()
+#4 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\put.php on line 4
+[21-Aug-2022 20:28:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Put_PedidosController" not found in D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\put.php:4
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\pedidos.routes.php(12): include()
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(29): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\index.php(55): Routes_Controller->index()
+#4 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\put.php on line 4
+[21-Aug-2022 20:29:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Put_PedidosController" not found in D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\put.php:4
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\pedidos.routes.php(12): include()
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(29): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\index.php(55): Routes_Controller->index()
+#4 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\put.php on line 4
+[21-Aug-2022 20:30:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\put.model.php:20
+Stack trace:
+#0 D:\xampp\htdocs\PruebaSOC\Api\controllers\pedidos\put.controller.php(8): Put_PedidosModel::updatePedido(Array, Array)
+#1 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\services\put.php(24): Put_PedidosController::updatePedido(Array, Array)
+#2 D:\xampp\htdocs\PruebaSOC\Api\routes\pedidos\pedidos.routes.php(12): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php(29): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\PruebaSOC\Api\controllers\routes.controller.php(7): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\PruebaSOC\Api\index.php(57): Routes_Controller->index()
+#6 {main}
+  thrown in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\put.model.php on line 20
+[21-Aug-2022 20:31:46 Europe/Berlin] PHP Warning:  Undefined array key "id_solicitante" in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\put.model.php on line 23
+[21-Aug-2022 20:32:59 Europe/Berlin] PHP Warning:  Undefined array key "destino" in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\put.model.php on line 29
+[21-Aug-2022 20:32:59 Europe/Berlin] PHP Warning:  Undefined array key "destino" in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\put.model.php on line 29
+[21-Aug-2022 20:32:59 Europe/Berlin] PHP Warning:  Undefined array key "destino" in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\put.model.php on line 29
+[21-Aug-2022 20:33:21 Europe/Berlin] PHP Warning:  Undefined array key "destino" in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\put.model.php on line 29
+[21-Aug-2022 20:33:21 Europe/Berlin] PHP Warning:  Undefined array key "destino" in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\put.model.php on line 29
+[21-Aug-2022 20:33:21 Europe/Berlin] PHP Warning:  Undefined array key "destino" in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\put.model.php on line 29
+[21-Aug-2022 20:35:14 Europe/Berlin] PHP Warning:  Undefined array key "destino" in D:\xampp\htdocs\PruebaSOC\Api\models\pedidos\put.model.php on line 38
+[21-Aug-2022 21:43:43 Europe/Berlin] PHP Warning:  Attempt to read property "nombre" on bool in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\delete.model.php on line 15
+[21-Aug-2022 21:43:43 Europe/Berlin] PHP Warning:  Attempt to read property "apellido_paterno" on bool in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\delete.model.php on line 15
+[21-Aug-2022 21:43:43 Europe/Berlin] PHP Warning:  Attempt to read property "apellido_materno" on bool in D:\xampp\htdocs\PruebaSOC\Api\models\solicitantes\delete.model.php on line 15
+[23-Aug-2022 10:10:11 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:18:28 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:18:28 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:21:36 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:21:36 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:36:30 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:36:30 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:40:10 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:40:10 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:40:33 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:40:33 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:40:38 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:40:38 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:41:53 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:41:53 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:44:28 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3
+[25-Aug-2022 07:44:28 Europe/Berlin] PHP Warning:  Undefined array key 4 in D:\xampp\htdocs\PruebaSOC\Api\routes\routes.php on line 3

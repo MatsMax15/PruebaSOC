@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script>
+		Solicitantes()
+	</script>
+
+	<title>Solicitantes</title>
+</head>
+<body>
+	<div class="content-header">
+		<h1>Solicitantes</h1>
+	</div>
+
+	<div class="content-body">
+		<div class="results mb-1">
+			<small id="results">Mostrando 0 resultados</small>
+		</div>
+
+		<table class="table table-striped table-hover">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th class="d-none d-lg-table-cell">CURP</th>
+					<th class="d-none d-md-table-cell">Correo</th>
+					<th>Edad</th>
+					<th>Operaciones</th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+				<tr>
+					<td class="text-center" colspan="10">
+						<img src="./assets/img/loading.gif" alt="" width="100">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

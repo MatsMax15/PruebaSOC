@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<script>
+			Pedidos_UploadContent()
+				.then(() => UploadPedido(localStorage.getItem('id')))
+				.catch(err => msgError(err))
+		</script>
+
+		<title>Modificar Pedido</title>
+	</head>
+	<body>
+		<div class="content-header">
+			<h1>Modificar Pedido</h1>
+		</div>
+
+		<div class="content-body">
+			<div class="container">
+				<form action="">
+					
+					<div class="row d-none" id="msg-denied">
+						<div class="col-md-12">
+							<div class="alert bg-warning">
+								<h5 class="text-center">
+									<ion-icon name="warning-outline"></ion-icon>
+									<strong>Importante</strong>
+								</h5>
+								<p class="">
+									El solicitante no cuenta con el salario mínimo requerido para realizar un pedido.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-8 col-lg-6">
+							<div class="row">
+								<div class="col-md-12 mb-4">
+									<div class="form-group">
+										<label for="">Solicitante *</label>
+										<select class="form-control" name="id_solicitante" id="id_solicitante" required disabled>
+											<option value="">Seleccione un Solicitante</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="col-12 mb-4">
+									<div class="card card-sm">
+										<div class="card-header text-center">
+											<h5 class="m-0">Detalles del Solicitante</h5>
+										</div>
+										<div class="card-body table-responsive" id="details-solicitante">
+											<p class="text-center m-0">Seleccione un Solicitante</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-6">
+							<div class="row">
+								<!-- Folio -->
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="">Folio *</label>
+										<div class="alert bg-warning p-1 text-center">
+											<h5 class="m-0" id="folio">-</h5>
+										</div>
+									</div>
+								</div>
+								<!-- Fecha -->
+								<div class="col-md-12 mb-4">
+									<div class="form-group">
+										<label for="">Fecha *</label>
+										<input type="date" class="form-control disabled" id="fecha" placeholder="Fecha" required />
+									</div>
+								</div>
+								<!-- Destino -->
+								<div class="col-md-12 mb-4">
+									<div class="form-group">
+										<label for="">Destino *</label>
+										<select name="destino" id="destino" class="form-control disabled" required>
+											<option value="">Selecciona una opción</option>
+											<option value="casa">Casa</option>
+											<option value="auto">Auto</option>
+											<option value="prestamo">Préstamo</option>
+											<option value="tarjeta">Targeta de Crédito</option>
+										</select>
+									</div>
+								</div>
+								<!-- Monto -->
+								<div class="col-md-12 mb-4">
+									<div class="form-group">
+										<label for="">Monto Solicitado *</label>
+										<input type="number" class="form-control disabled" id="monto" placeholder="Monto" required />
+									</div>
+								</div>
+								<!-- Plazo -->
+								<div class="col-md-12 mb-4">
+									<div class="form-group">
+										<label for="">Plazo (años) *</label>
+										<select name="plazo" id="plazo" class="form-control disabled" required>
+											<option value="">Selecciona una opción</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<hr />
+
+					<!-- Botones -->
+					<div class="row">
+						<div class="col-6">
+							<button type="submit" class="btn btn-secondary btn-action">
+								<ion-icon name="close-circle-outline"></ion-icon>
+								Cancelar
+							</button>
+						</div>
+						<div class="col-6">
+							<button type="submit" class="btn btn-success btn-action" onclick="UpdatePedido(event)" id="newPedido">
+								<ion-icon name="save-outline"></ion-icon>
+								Guardar
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
